@@ -1,0 +1,1472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		53DF6901067E5B8E0090B5B0 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C056398708A954F8003078D8 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				53DF6903067E5B930090B5B0 /* PBXTargetDependency */,
+				53DF6905067E5B930090B5B0 /* PBXTargetDependency */,
+				36EF929410C36BD8004A9788 /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		13F8B89007B43554008AE28D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
+		2B96B83710BF8EDB00A87789 /* KAWindowStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B96B83510BF8EDB00A87789 /* KAWindowStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC7A9B210C6867D00AF0BCC /* AiOControlIBPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DF68FD067E5B5A0090B5B0 /* AiOControlIBPlugin.framework */; };
+		2BC7A9B310C6868300AF0BCC /* AiOControlIBPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DF68FD067E5B5A0090B5B0 /* AiOControlIBPlugin.framework */; };
+		362428AF10B27007007FF848 /* HyperLinkButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 362428AD10B27007007FF848 /* HyperLinkButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		362428B010B27007007FF848 /* HyperLinkButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 362428AE10B27007007FF848 /* HyperLinkButton.m */; };
+		362428B210B2716E007FF848 /* HyperLinkButtonIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 362428B110B2716E007FF848 /* HyperLinkButtonIntegration.m */; };
+		362428DA10B271A8007FF848 /* HyperLinkButtonInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 362428D910B271A8007FF848 /* HyperLinkButtonInspector.m */; };
+		362428DC10B271B7007FF848 /* HyperLinkButtonInspector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 362428DB10B271B7007FF848 /* HyperLinkButtonInspector.xib */; };
+		36242A6010B28A49007FF848 /* KATabView.h in Headers */ = {isa = PBXBuildFile; fileRef = 36242A5C10B28A49007FF848 /* KATabView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36242A6110B28A49007FF848 /* KATabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242A5D10B28A49007FF848 /* KATabView.m */; };
+		36242A6210B28A49007FF848 /* KATabViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 36242A5E10B28A49007FF848 /* KATabViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36242A6310B28A49007FF848 /* KATabViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242A5F10B28A49007FF848 /* KATabViewItem.m */; };
+		36242AC010B29AEE007FF848 /* KATableCornerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 36242ABA10B29AEE007FF848 /* KATableCornerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36242AC110B29AEE007FF848 /* KATableCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242ABB10B29AEE007FF848 /* KATableCornerView.m */; };
+		36242AC210B29AEE007FF848 /* KATableHeaderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 36242ABC10B29AEE007FF848 /* KATableHeaderCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36242AC310B29AEE007FF848 /* KATableHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242ABD10B29AEE007FF848 /* KATableHeaderCell.m */; };
+		36242AC410B29AEE007FF848 /* KATableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 36242ABE10B29AEE007FF848 /* KATableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36242AC510B29AEE007FF848 /* KATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242ABF10B29AEE007FF848 /* KATableView.m */; };
+		36242AFA10B2A06A007FF848 /* KATableViewPresentationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 36242AF810B2A06A007FF848 /* KATableViewPresentationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36242AFB10B2A06A007FF848 /* KATableViewPresentationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242AF910B2A06A007FF848 /* KATableViewPresentationInfo.m */; };
+		36242B0110B2A17C007FF848 /* KATableViewBlackFadeDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 36242AFF10B2A17C007FF848 /* KATableViewBlackFadeDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36242B0210B2A17C007FF848 /* KATableViewBlackFadeDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242B0010B2A17C007FF848 /* KATableViewBlackFadeDrawer.m */; };
+		36242B5C10B38455007FF848 /* KATableViewIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242B5B10B38455007FF848 /* KATableViewIntegration.m */; };
+		36242C5C10B38F16007FF848 /* KATableHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 36242C5A10B38F16007FF848 /* KATableHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36242C5D10B38F16007FF848 /* KATableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242C5B10B38F16007FF848 /* KATableHeaderView.m */; };
+		36242CEA10B394BC007FF848 /* KATextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 36242CE810B394BC007FF848 /* KATextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36242CEB10B394BC007FF848 /* KATextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242CE910B394BC007FF848 /* KATextFieldCell.m */; };
+		36242CEF10B3A845007FF848 /* KATextFieldBlackFadeDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 36242CED10B3A845007FF848 /* KATextFieldBlackFadeDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36242CF010B3A845007FF848 /* KATextFieldBlackFadeDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242CEE10B3A845007FF848 /* KATextFieldBlackFadeDrawer.m */; };
+		36242CF410B3A900007FF848 /* KATextFieldPresentationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 36242CF210B3A900007FF848 /* KATextFieldPresentationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36242CF510B3A900007FF848 /* KATextFieldPresentationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242CF310B3A900007FF848 /* KATextFieldPresentationInfo.m */; };
+		36242D0510B3B0E9007FF848 /* KATextFieldIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242D0410B3B0E9007FF848 /* KATextFieldIntegration.m */; };
+		36242D5E10B3B26F007FF848 /* KATableView.png in Resources */ = {isa = PBXBuildFile; fileRef = 36242D5D10B3B26F007FF848 /* KATableView.png */; };
+		36242D7610B3B434007FF848 /* KAStepperCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 36242D7410B3B434007FF848 /* KAStepperCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36242D7710B3B434007FF848 /* KAStepperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242D7510B3B434007FF848 /* KAStepperCell.m */; };
+		36242D7A10B3B44B007FF848 /* KASliderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 36242D7810B3B44B007FF848 /* KASliderCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36242D7B10B3B44B007FF848 /* KASliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36242D7910B3B44B007FF848 /* KASliderCell.m */; };
+		365171AA10B16CA300BB60FC /* KAProgressIndicatorIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 365171A910B16CA300BB60FC /* KAProgressIndicatorIntegration.m */; };
+		365173AA10B1853700BB60FC /* KAProgressBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 365173A910B1853700BB60FC /* KAProgressBar.png */; };
+		365A04B910AA7FC700E46EBB /* _KAGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 365A04AF10AA7FC700E46EBB /* _KAGradient.m */; };
+		365A04BB10AA7FC700E46EBB /* _NSGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 365A04B110AA7FC700E46EBB /* _NSGradient.m */; };
+		365A04BC10AA7FC700E46EBB /* KAGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 365A04B210AA7FC700E46EBB /* KAGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365A04BD10AA7FC700E46EBB /* KAGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 365A04B310AA7FC700E46EBB /* KAGradient.m */; };
+		365A04BE10AA7FC700E46EBB /* KAGradientProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 365A04B410AA7FC700E46EBB /* KAGradientProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365A04D410AA804700E46EBB /* KACustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 365A04D110AA804700E46EBB /* KACustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365A04D510AA804700E46EBB /* KACustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 365A04D210AA804700E46EBB /* KACustomView.m */; };
+		365A04F110AA821800E46EBB /* DrawerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 365A04E010AA821800E46EBB /* DrawerFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365A04F210AA821800E46EBB /* DrawerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 365A04E110AA821800E46EBB /* DrawerFactory.m */; };
+		365A04F310AA821800E46EBB /* IControlDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 365A04E210AA821800E46EBB /* IControlDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365A04F410AA821800E46EBB /* IControlPresentationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 365A04E310AA821800E46EBB /* IControlPresentationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365A04F510AA821800E46EBB /* IDrawFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 365A04E410AA821800E46EBB /* IDrawFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365A04F610AA821800E46EBB /* IPresentationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 365A04E510AA821800E46EBB /* IPresentationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365A04F710AA821800E46EBB /* IPresentationSeparated.h in Headers */ = {isa = PBXBuildFile; fileRef = 365A04E610AA821800E46EBB /* IPresentationSeparated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365A04F810AA821800E46EBB /* PresentationArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 365A04E710AA821800E46EBB /* PresentationArgs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365A04F910AA821800E46EBB /* PresentationArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 365A04E810AA821800E46EBB /* PresentationArgs.m */; };
+		365A04FA10AA821800E46EBB /* PresentationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 365A04E910AA821800E46EBB /* PresentationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365A04FB10AA821800E46EBB /* PresentationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 365A04EA10AA821800E46EBB /* PresentationManager.m */; };
+		365A051D10AA836300E46EBB /* AiOControlFramework_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 365A051C10AA836300E46EBB /* AiOControlFramework_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CC72AD10ABDC30004CD1A0 /* KAWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CC72AB10ABDC30004CD1A0 /* KAWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CC72AE10ABDC30004CD1A0 /* KAWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC72AC10ABDC30004CD1A0 /* KAWindow.m */; };
+		36CC72B110ABDC51004CD1A0 /* NSBezierPath+RoundedRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CC72AF10ABDC51004CD1A0 /* NSBezierPath+RoundedRect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CC72B210ABDC51004CD1A0 /* NSBezierPath+RoundedRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC72B010ABDC51004CD1A0 /* NSBezierPath+RoundedRect.m */; };
+		36CC73AA10ABED89004CD1A0 /* KAWindow.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = 36CC73A710ABED5E004CD1A0 /* KAWindow.classdescription */; };
+		36CC75D210AC20A7004CD1A0 /* KAThemeFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CC757610AC1C0F004CD1A0 /* KAThemeFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CC75D310AC20A7004CD1A0 /* KAThemeFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC757710AC1C0F004CD1A0 /* KAThemeFrame.m */; };
+		36CC75D710AC20B7004CD1A0 /* KAPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC751410AC006A004CD1A0 /* KAPanel.m */; };
+		36CC760B10AC2B06004CD1A0 /* PluginControlller.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC760A10AC2B06004CD1A0 /* PluginControlller.m */; };
+		36CC7B6A10AD1B7D004CD1A0 /* KAStylesInspector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36CC7B6810AD1B79004CD1A0 /* KAStylesInspector.xib */; };
+		36CC7B6E10AD1BD8004CD1A0 /* KAStylesInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC7B6D10AD1BD8004CD1A0 /* KAStylesInspector.m */; };
+		36CC7C4F10AD22E6004CD1A0 /* KACustomViewBlackFadeDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CC7C4D10AD22E6004CD1A0 /* KACustomViewBlackFadeDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CC7C5010AD22E6004CD1A0 /* KACustomViewBlackFadeDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC7C4E10AD22E6004CD1A0 /* KACustomViewBlackFadeDrawer.m */; };
+		36CC7CAF10AD2669004CD1A0 /* KACustomViewCustomDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CC7CAD10AD2669004CD1A0 /* KACustomViewCustomDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CC7CB010AD2669004CD1A0 /* KACustomViewCustomDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC7CAE10AD2669004CD1A0 /* KACustomViewCustomDrawer.m */; };
+		36CC7D1510AD2B0A004CD1A0 /* KAWindowBlackFadeDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CC7D1310AD2B0A004CD1A0 /* KAWindowBlackFadeDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CC7D1610AD2B0A004CD1A0 /* KAWindowBlackFadeDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC7D1410AD2B0A004CD1A0 /* KAWindowBlackFadeDrawer.m */; };
+		36CC7D5710AD2F46004CD1A0 /* KAPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CC7D5510AD2F46004CD1A0 /* KAPanel.png */; };
+		36CC7D5810AD2F46004CD1A0 /* KAWindow.tif in Resources */ = {isa = PBXBuildFile; fileRef = 36CC7D5610AD2F46004CD1A0 /* KAWindow.tif */; };
+		36D395D510AD5129006AA8EF /* KAScroller.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D395D110AD5129006AA8EF /* KAScroller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36D395D610AD5129006AA8EF /* KAScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D395D210AD5129006AA8EF /* KAScroller.m */; };
+		36D395D710AD5129006AA8EF /* KAScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D395D310AD5129006AA8EF /* KAScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36D395D810AD5129006AA8EF /* KAScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D395D410AD5129006AA8EF /* KAScrollView.m */; };
+		36D395DB10AD514D006AA8EF /* KAScrollerBlackFadeDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D395D910AD514D006AA8EF /* KAScrollerBlackFadeDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36D395DC10AD514D006AA8EF /* KAScrollerBlackFadeDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D395DA10AD514D006AA8EF /* KAScrollerBlackFadeDrawer.m */; };
+		36D3967A10AD5DA0006AA8EF /* KAScrollView.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = 36D3967910AD5D9B006AA8EF /* KAScrollView.classdescription */; };
+		36D74E7D10B3F27300FE1A30 /* AiOControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D74E7C10B3F27300FE1A30 /* AiOControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC1B7810B0F55400F7702F /* KAOutlineview.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1B7610B0F55400F7702F /* KAOutlineview.png */; };
+		36EC1B7910B0F55400F7702F /* KAScrollview.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1B7710B0F55400F7702F /* KAScrollview.png */; };
+		36EC1BE210B110F200F7702F /* KAButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC1BDA10B110F200F7702F /* KAButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC1BE310B110F200F7702F /* KAButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1BDB10B110F200F7702F /* KAButtonCell.m */; };
+		36EC1BE810B110F200F7702F /* KAPopUpButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC1BE010B110F200F7702F /* KAPopUpButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC1BE910B110F200F7702F /* KAPopUpButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1BE110B110F200F7702F /* KAPopUpButtonCell.m */; };
+		36EC1CEA10B11AFF00F7702F /* About (background).png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CCE10B11AFF00F7702F /* About (background).png */; };
+		36EC1CEB10B11AFF00F7702F /* blackbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CCF10B11AFF00F7702F /* blackbutton.png */; };
+		36EC1CEC10B11AFF00F7702F /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CD010B11AFF00F7702F /* checkbox.png */; };
+		36EC1CED10B11AFF00F7702F /* checkboxda.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CD110B11AFF00F7702F /* checkboxda.png */; };
+		36EC1CEE10B11AFF00F7702F /* checkboxsl.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CD210B11AFF00F7702F /* checkboxsl.png */; };
+		36EC1CEF10B11AFF00F7702F /* checkboxslda.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CD310B11AFF00F7702F /* checkboxslda.png */; };
+		36EC1CF010B11AFF00F7702F /* counter-disable.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CD410B11AFF00F7702F /* counter-disable.png */; };
+		36EC1CF110B11AFF00F7702F /* counter.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CD510B11AFF00F7702F /* counter.png */; };
+		36EC1CF210B11AFF00F7702F /* Goya Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CD610B11AFF00F7702F /* Goya Icon.icns */; };
+		36EC1CF310B11AFF00F7702F /* graybutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CD710B11AFF00F7702F /* graybutton.png */; };
+		36EC1CF410B11AFF00F7702F /* grayfade.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CD810B11AFF00F7702F /* grayfade.png */; };
+		36EC1CF510B11AFF00F7702F /* graytab.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CD910B11AFF00F7702F /* graytab.png */; };
+		36EC1CF610B11AFF00F7702F /* hud_titlebar-close.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CDA10B11AFF00F7702F /* hud_titlebar-close.tiff */; };
+		36EC1CF710B11AFF00F7702F /* hud_titlebar-mini.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CDB10B11AFF00F7702F /* hud_titlebar-mini.tiff */; };
+		36EC1CF810B11AFF00F7702F /* hud_titlebar-resize.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CDC10B11AFF00F7702F /* hud_titlebar-resize.tiff */; };
+		36EC1CF910B11AFF00F7702F /* hud_titlebar-zoom.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CDD10B11AFF00F7702F /* hud_titlebar-zoom.tiff */; };
+		36EC1CFA10B11AFF00F7702F /* kodakfavicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CDE10B11AFF00F7702F /* kodakfavicon.png */; };
+		36EC1CFB10B11AFF00F7702F /* kodaklogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CDF10B11AFF00F7702F /* kodaklogo.png */; };
+		36EC1CFC10B11AFF00F7702F /* statusbar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CE110B11AFF00F7702F /* statusbar1.png */; };
+		36EC1CFD10B11AFF00F7702F /* statusbar2.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CE210B11AFF00F7702F /* statusbar2.png */; };
+		36EC1CFE10B11AFF00F7702F /* statusbarempty.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CE310B11AFF00F7702F /* statusbarempty.png */; };
+		36EC1CFF10B11AFF00F7702F /* radiobutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CE410B11AFF00F7702F /* radiobutton.png */; };
+		36EC1D0010B11AFF00F7702F /* radiobuttonda.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CE510B11AFF00F7702F /* radiobuttonda.png */; };
+		36EC1D0110B11AFF00F7702F /* radiobuttonsl.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CE610B11AFF00F7702F /* radiobuttonsl.png */; };
+		36EC1D0210B11AFF00F7702F /* radiobuttonslda.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CE710B11AFF00F7702F /* radiobuttonslda.png */; };
+		36EC1D0310B11AFF00F7702F /* redtab.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CE810B11AFF00F7702F /* redtab.png */; };
+		36EC1D0410B11AFF00F7702F /* UnselectedTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1CE910B11AFF00F7702F /* UnselectedTab.png */; };
+		36EC1D0710B11B5300F7702F /* KAButtonGrayDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC1D0510B11B5300F7702F /* KAButtonGrayDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC1D0810B11B5300F7702F /* KAButtonGrayDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1D0610B11B5300F7702F /* KAButtonGrayDrawer.m */; };
+		36EC1D0E10B11D3600F7702F /* KAButtonPresentationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC1D0C10B11D3600F7702F /* KAButtonPresentationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC1D0F10B11D3600F7702F /* KAButtonPresentationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1D0D10B11D3600F7702F /* KAButtonPresentationInfo.m */; };
+		36EC1D2E10B125D400F7702F /* KAButtonBlackFadeDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC1D2C10B125D400F7702F /* KAButtonBlackFadeDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC1D2F10B125D400F7702F /* KAButtonBlackFadeDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1D2D10B125D400F7702F /* KAButtonBlackFadeDrawer.m */; };
+		36EC1D3510B12B1D00F7702F /* KAPopUpButtonBlackFadeDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC1D3310B12B1D00F7702F /* KAPopUpButtonBlackFadeDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC1D3610B12B1D00F7702F /* KAPopUpButtonBlackFadeDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1D3410B12B1D00F7702F /* KAPopUpButtonBlackFadeDrawer.m */; };
+		36EC1E1310B1392000F7702F /* KAButtonCellIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1E1210B1392000F7702F /* KAButtonCellIntegration.m */; };
+		36EC1EB510B13F0E00F7702F /* KABlackbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1EB310B13F0E00F7702F /* KABlackbutton.png */; };
+		36EC1EB610B13F0E00F7702F /* KAGraybutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1EB410B13F0E00F7702F /* KAGraybutton.png */; };
+		36EC1EC810B1400A00F7702F /* KACheckBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1EC710B1400A00F7702F /* KACheckBox.png */; };
+		36EC215310B15E0A00F7702F /* KAPopUpButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EC215210B15E0A00F7702F /* KAPopUpButton.png */; };
+		36EC218E10B1666D00F7702F /* KAProgressIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC218C10B1666D00F7702F /* KAProgressIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC218F10B1666D00F7702F /* KAProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC218D10B1666D00F7702F /* KAProgressIndicator.m */; };
+		36EC219210B1668300F7702F /* KAProgressBarBlackFadeDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC219010B1668300F7702F /* KAProgressBarBlackFadeDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC219310B1668300F7702F /* KAProgressBarBlackFadeDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC219110B1668300F7702F /* KAProgressBarBlackFadeDrawer.m */; };
+		36EF928F10C36BC3004A9788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EF928B10C36BC3004A9788 /* main.m */; };
+		36EF929010C36BC3004A9788 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36EF928C10C36BC3004A9788 /* MainWindow.xib */; };
+		36EF929110C36BC3004A9788 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EF928E10C36BC3004A9788 /* TestController.m */; };
+		36EF936610C3730F004A9788 /* KAStepView.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = 36EF92D910C36F58004A9788 /* KAStepView.classdescription */; };
+		36EF936710C37315004A9788 /* KAButtonCell.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = 36EC1E1710B1394300F7702F /* KAButtonCell.classdescription */; };
+		36EF944F10C3922F004A9788 /* KAStepViewInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EF944E10C3922F004A9788 /* KAStepViewInspector.m */; };
+		5485A4BF10C0F52200C806BF /* DotBlue.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5485A4BC10C0F52200C806BF /* DotBlue.tiff */; };
+		5485A4C010C0F52200C806BF /* DotGray.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5485A4BD10C0F52200C806BF /* DotGray.tiff */; };
+		5485A4C110C0F52200C806BF /* DotGrayDisabled.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5485A4BE10C0F52200C806BF /* DotGrayDisabled.tiff */; };
+		5485A4C210C0F52200C806BF /* DotBlue.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5485A4BC10C0F52200C806BF /* DotBlue.tiff */; };
+		5485A4C310C0F52200C806BF /* DotGray.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5485A4BD10C0F52200C806BF /* DotGray.tiff */; };
+		5485A4C410C0F52200C806BF /* DotGrayDisabled.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5485A4BE10C0F52200C806BF /* DotGrayDisabled.tiff */; };
+		5485A58D10C1057300C806BF /* StepFocus.png in Resources */ = {isa = PBXBuildFile; fileRef = 5485A58C10C1057300C806BF /* StepFocus.png */; };
+		5485A58E10C1057300C806BF /* StepFocus.png in Resources */ = {isa = PBXBuildFile; fileRef = 5485A58C10C1057300C806BF /* StepFocus.png */; };
+		54D33B2906778E3300C9C163 /* KACustomView.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = 54D33B2806778E3300C9C163 /* KACustomView.classdescription */; };
+		8D1AC96C0486D14A00FE50C9 /* KACustomViewInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C577FE90428111CA0C5A /* KACustomViewInspector.m */; settings = {ATTRIBUTES = (); }; };
+		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
+		C044829F0C3328F4006E818F /* KACustomViewIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = C044829E0C3328F4006E818F /* KACustomViewIntegration.m */; };
+		C08787290A49DE9A00E9B151 /* AiOControlIBPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C576FE90428111CA0C5A /* AiOControlIBPlugin.m */; };
+		C0A47C500A523B730004BDC3 /* KACustomViewInspector.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05B20D80A48CB530099B9E5 /* KACustomViewInspector.xib */; };
+		C0D069560A49DF9100C95564 /* InterfaceBuilderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */; };
+		D1AEDE470A6C289C0010C343 /* AiOControlIBPluginLibrary.nib in Resources */ = {isa = PBXBuildFile; fileRef = D1AEDE460A6C289C0010C343 /* AiOControlIBPluginLibrary.nib */; };
+		DB89419510B6498F0004CF4B /* KAPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CC751310AC006A004CD1A0 /* KAPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36EF929310C36BD8004A9788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36EF927F10C36B90004A9788;
+			remoteInfo = TestProgress;
+		};
+		53DF6902067E5B930090B5B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1AC9600486D14A00FE50C9;
+			remoteInfo = AiOControlIBPlugin;
+		};
+		53DF6904067E5B930090B5B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0;
+			remoteInfo = AiOControlIBPluginFramework;
+		};
+		546DEAEF067F62F70098DCC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0;
+			remoteInfo = AiOControlIBPluginFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0259C576FE90428111CA0C5A /* AiOControlIBPlugin.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AiOControlIBPlugin.m; sourceTree = "<group>"; };
+		0259C577FE90428111CA0C5A /* KACustomViewInspector.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = KACustomViewInspector.m; sourceTree = "<group>"; };
+		0259C57AFE90428111CA0C5A /* AiOControlIBPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AiOControlIBPlugin.h; sourceTree = "<group>"; };
+		0259C57BFE90428111CA0C5A /* KACustomViewInspector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = KACustomViewInspector.h; sourceTree = "<group>"; };
+		13F8B88807B434F6008AE28D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		13F8B88907B434F6008AE28D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		13F8B88A07B434F6008AE28D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2B96B83510BF8EDB00A87789 /* KAWindowStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAWindowStyle.h; sourceTree = "<group>"; };
+		2BC7A91510C6834000AF0BCC /* Untitled-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Untitled-Info.plist"; sourceTree = "<group>"; };
+		32DBCF980370C29C00C91783 /* AiOControlIBPlugin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AiOControlIBPlugin_Prefix.pch; sourceTree = "<group>"; };
+		362428AD10B27007007FF848 /* HyperLinkButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyperLinkButton.h; sourceTree = "<group>"; };
+		362428AE10B27007007FF848 /* HyperLinkButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyperLinkButton.m; sourceTree = "<group>"; };
+		362428B110B2716E007FF848 /* HyperLinkButtonIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyperLinkButtonIntegration.m; sourceTree = "<group>"; };
+		362428D810B271A8007FF848 /* HyperLinkButtonInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyperLinkButtonInspector.h; sourceTree = "<group>"; };
+		362428D910B271A8007FF848 /* HyperLinkButtonInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyperLinkButtonInspector.m; sourceTree = "<group>"; };
+		362428DB10B271B7007FF848 /* HyperLinkButtonInspector.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HyperLinkButtonInspector.xib; sourceTree = "<group>"; };
+		36242A5C10B28A49007FF848 /* KATabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KATabView.h; sourceTree = "<group>"; };
+		36242A5D10B28A49007FF848 /* KATabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KATabView.m; sourceTree = "<group>"; };
+		36242A5E10B28A49007FF848 /* KATabViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KATabViewItem.h; sourceTree = "<group>"; };
+		36242A5F10B28A49007FF848 /* KATabViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KATabViewItem.m; sourceTree = "<group>"; };
+		36242ABA10B29AEE007FF848 /* KATableCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KATableCornerView.h; sourceTree = "<group>"; };
+		36242ABB10B29AEE007FF848 /* KATableCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KATableCornerView.m; sourceTree = "<group>"; };
+		36242ABC10B29AEE007FF848 /* KATableHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KATableHeaderCell.h; sourceTree = "<group>"; };
+		36242ABD10B29AEE007FF848 /* KATableHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KATableHeaderCell.m; sourceTree = "<group>"; };
+		36242ABE10B29AEE007FF848 /* KATableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KATableView.h; sourceTree = "<group>"; };
+		36242ABF10B29AEE007FF848 /* KATableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KATableView.m; sourceTree = "<group>"; };
+		36242AF810B2A06A007FF848 /* KATableViewPresentationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KATableViewPresentationInfo.h; sourceTree = "<group>"; };
+		36242AF910B2A06A007FF848 /* KATableViewPresentationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KATableViewPresentationInfo.m; sourceTree = "<group>"; };
+		36242AFF10B2A17C007FF848 /* KATableViewBlackFadeDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KATableViewBlackFadeDrawer.h; sourceTree = "<group>"; };
+		36242B0010B2A17C007FF848 /* KATableViewBlackFadeDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KATableViewBlackFadeDrawer.m; sourceTree = "<group>"; };
+		36242B5B10B38455007FF848 /* KATableViewIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KATableViewIntegration.m; sourceTree = "<group>"; };
+		36242C5A10B38F16007FF848 /* KATableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KATableHeaderView.h; sourceTree = "<group>"; };
+		36242C5B10B38F16007FF848 /* KATableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KATableHeaderView.m; sourceTree = "<group>"; };
+		36242CE810B394BC007FF848 /* KATextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KATextFieldCell.h; sourceTree = "<group>"; };
+		36242CE910B394BC007FF848 /* KATextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KATextFieldCell.m; sourceTree = "<group>"; };
+		36242CED10B3A845007FF848 /* KATextFieldBlackFadeDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KATextFieldBlackFadeDrawer.h; sourceTree = "<group>"; };
+		36242CEE10B3A845007FF848 /* KATextFieldBlackFadeDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KATextFieldBlackFadeDrawer.m; sourceTree = "<group>"; };
+		36242CF210B3A900007FF848 /* KATextFieldPresentationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KATextFieldPresentationInfo.h; sourceTree = "<group>"; };
+		36242CF310B3A900007FF848 /* KATextFieldPresentationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KATextFieldPresentationInfo.m; sourceTree = "<group>"; };
+		36242D0410B3B0E9007FF848 /* KATextFieldIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KATextFieldIntegration.m; sourceTree = "<group>"; };
+		36242D5D10B3B26F007FF848 /* KATableView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KATableView.png; sourceTree = "<group>"; };
+		36242D7410B3B434007FF848 /* KAStepperCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAStepperCell.h; sourceTree = "<group>"; };
+		36242D7510B3B434007FF848 /* KAStepperCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAStepperCell.m; sourceTree = "<group>"; };
+		36242D7810B3B44B007FF848 /* KASliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KASliderCell.h; sourceTree = "<group>"; };
+		36242D7910B3B44B007FF848 /* KASliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KASliderCell.m; sourceTree = "<group>"; };
+		365171A910B16CA300BB60FC /* KAProgressIndicatorIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAProgressIndicatorIntegration.m; sourceTree = "<group>"; };
+		365173A910B1853700BB60FC /* KAProgressBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KAProgressBar.png; sourceTree = "<group>"; };
+		365A04AE10AA7FC700E46EBB /* _KAGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _KAGradient.h; sourceTree = "<group>"; };
+		365A04AF10AA7FC700E46EBB /* _KAGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _KAGradient.m; sourceTree = "<group>"; };
+		365A04B010AA7FC700E46EBB /* _NSGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _NSGradient.h; sourceTree = "<group>"; };
+		365A04B110AA7FC700E46EBB /* _NSGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _NSGradient.m; sourceTree = "<group>"; };
+		365A04B210AA7FC700E46EBB /* KAGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAGradient.h; sourceTree = "<group>"; };
+		365A04B310AA7FC700E46EBB /* KAGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAGradient.m; sourceTree = "<group>"; };
+		365A04B410AA7FC700E46EBB /* KAGradientProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAGradientProtocol.h; sourceTree = "<group>"; };
+		365A04D110AA804700E46EBB /* KACustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KACustomView.h; sourceTree = "<group>"; };
+		365A04D210AA804700E46EBB /* KACustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KACustomView.m; sourceTree = "<group>"; };
+		365A04E010AA821800E46EBB /* DrawerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerFactory.h; sourceTree = "<group>"; };
+		365A04E110AA821800E46EBB /* DrawerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerFactory.m; sourceTree = "<group>"; };
+		365A04E210AA821800E46EBB /* IControlDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IControlDrawer.h; sourceTree = "<group>"; };
+		365A04E310AA821800E46EBB /* IControlPresentationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IControlPresentationInfo.h; sourceTree = "<group>"; };
+		365A04E410AA821800E46EBB /* IDrawFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDrawFactory.h; sourceTree = "<group>"; };
+		365A04E510AA821800E46EBB /* IPresentationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPresentationManager.h; sourceTree = "<group>"; };
+		365A04E610AA821800E46EBB /* IPresentationSeparated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPresentationSeparated.h; sourceTree = "<group>"; };
+		365A04E710AA821800E46EBB /* PresentationArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentationArgs.h; sourceTree = "<group>"; };
+		365A04E810AA821800E46EBB /* PresentationArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentationArgs.m; sourceTree = "<group>"; };
+		365A04E910AA821800E46EBB /* PresentationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentationManager.h; sourceTree = "<group>"; };
+		365A04EA10AA821800E46EBB /* PresentationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentationManager.m; sourceTree = "<group>"; };
+		365A051C10AA836300E46EBB /* AiOControlFramework_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AiOControlFramework_Prefix.pch; sourceTree = "<group>"; };
+		36CC72AB10ABDC30004CD1A0 /* KAWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAWindow.h; sourceTree = "<group>"; };
+		36CC72AC10ABDC30004CD1A0 /* KAWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAWindow.m; sourceTree = "<group>"; };
+		36CC72AF10ABDC51004CD1A0 /* NSBezierPath+RoundedRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+RoundedRect.h"; sourceTree = "<group>"; };
+		36CC72B010ABDC51004CD1A0 /* NSBezierPath+RoundedRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+RoundedRect.m"; sourceTree = "<group>"; };
+		36CC73A710ABED5E004CD1A0 /* KAWindow.classdescription */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = KAWindow.classdescription; sourceTree = "<group>"; };
+		36CC750510ABFFF3004CD1A0 /* IBWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBWindowView.h; sourceTree = "<group>"; };
+		36CC750910ABFFF3004CD1A0 /* NSThemeFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThemeFrame.h; sourceTree = "<group>"; };
+		36CC751310AC006A004CD1A0 /* KAPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAPanel.h; sourceTree = "<group>"; };
+		36CC751410AC006A004CD1A0 /* KAPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAPanel.m; sourceTree = "<group>"; };
+		36CC757610AC1C0F004CD1A0 /* KAThemeFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAThemeFrame.h; sourceTree = "<group>"; };
+		36CC757710AC1C0F004CD1A0 /* KAThemeFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAThemeFrame.m; sourceTree = "<group>"; };
+		36CC75DB10AC2129004CD1A0 /* NSFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFrameView.h; sourceTree = "<group>"; };
+		36CC75DC10AC2129004CD1A0 /* NSTitledFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTitledFrame.h; sourceTree = "<group>"; };
+		36CC760910AC2B06004CD1A0 /* PluginControlller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginControlller.h; sourceTree = "<group>"; };
+		36CC760A10AC2B06004CD1A0 /* PluginControlller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginControlller.m; sourceTree = "<group>"; };
+		36CC7B6810AD1B79004CD1A0 /* KAStylesInspector.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = KAStylesInspector.xib; path = English.lproj/KAStylesInspector.xib; sourceTree = "<group>"; };
+		36CC7B6C10AD1BD8004CD1A0 /* KAStylesInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAStylesInspector.h; sourceTree = "<group>"; };
+		36CC7B6D10AD1BD8004CD1A0 /* KAStylesInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAStylesInspector.m; sourceTree = "<group>"; };
+		36CC7C4D10AD22E6004CD1A0 /* KACustomViewBlackFadeDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KACustomViewBlackFadeDrawer.h; sourceTree = "<group>"; };
+		36CC7C4E10AD22E6004CD1A0 /* KACustomViewBlackFadeDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KACustomViewBlackFadeDrawer.m; sourceTree = "<group>"; };
+		36CC7CAD10AD2669004CD1A0 /* KACustomViewCustomDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KACustomViewCustomDrawer.h; sourceTree = "<group>"; };
+		36CC7CAE10AD2669004CD1A0 /* KACustomViewCustomDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KACustomViewCustomDrawer.m; sourceTree = "<group>"; };
+		36CC7D1310AD2B0A004CD1A0 /* KAWindowBlackFadeDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAWindowBlackFadeDrawer.h; sourceTree = "<group>"; };
+		36CC7D1410AD2B0A004CD1A0 /* KAWindowBlackFadeDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAWindowBlackFadeDrawer.m; sourceTree = "<group>"; };
+		36CC7D5510AD2F46004CD1A0 /* KAPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KAPanel.png; sourceTree = "<group>"; };
+		36CC7D5610AD2F46004CD1A0 /* KAWindow.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = KAWindow.tif; sourceTree = "<group>"; };
+		36D395D110AD5129006AA8EF /* KAScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAScroller.h; sourceTree = "<group>"; };
+		36D395D210AD5129006AA8EF /* KAScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAScroller.m; sourceTree = "<group>"; };
+		36D395D310AD5129006AA8EF /* KAScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAScrollView.h; sourceTree = "<group>"; };
+		36D395D410AD5129006AA8EF /* KAScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAScrollView.m; sourceTree = "<group>"; };
+		36D395D910AD514D006AA8EF /* KAScrollerBlackFadeDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAScrollerBlackFadeDrawer.h; sourceTree = "<group>"; };
+		36D395DA10AD514D006AA8EF /* KAScrollerBlackFadeDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAScrollerBlackFadeDrawer.m; sourceTree = "<group>"; };
+		36D3967910AD5D9B006AA8EF /* KAScrollView.classdescription */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KAScrollView.classdescription; sourceTree = "<group>"; };
+		36D74E7C10B3F27300FE1A30 /* AiOControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AiOControls.h; sourceTree = "<group>"; };
+		36DC5C5310C639AC004F1960 /* NSTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTabView.h; sourceTree = "<group>"; };
+		36EC1B7610B0F55400F7702F /* KAOutlineview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KAOutlineview.png; sourceTree = "<group>"; };
+		36EC1B7710B0F55400F7702F /* KAScrollview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KAScrollview.png; sourceTree = "<group>"; };
+		36EC1BDA10B110F200F7702F /* KAButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAButtonCell.h; sourceTree = "<group>"; };
+		36EC1BDB10B110F200F7702F /* KAButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAButtonCell.m; sourceTree = "<group>"; };
+		36EC1BE010B110F200F7702F /* KAPopUpButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAPopUpButtonCell.h; sourceTree = "<group>"; };
+		36EC1BE110B110F200F7702F /* KAPopUpButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAPopUpButtonCell.m; sourceTree = "<group>"; };
+		36EC1CCE10B11AFF00F7702F /* About (background).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "About (background).png"; sourceTree = "<group>"; };
+		36EC1CCF10B11AFF00F7702F /* blackbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackbutton.png; sourceTree = "<group>"; };
+		36EC1CD010B11AFF00F7702F /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
+		36EC1CD110B11AFF00F7702F /* checkboxda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkboxda.png; sourceTree = "<group>"; };
+		36EC1CD210B11AFF00F7702F /* checkboxsl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkboxsl.png; sourceTree = "<group>"; };
+		36EC1CD310B11AFF00F7702F /* checkboxslda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkboxslda.png; sourceTree = "<group>"; };
+		36EC1CD410B11AFF00F7702F /* counter-disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "counter-disable.png"; sourceTree = "<group>"; };
+		36EC1CD510B11AFF00F7702F /* counter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = counter.png; sourceTree = "<group>"; };
+		36EC1CD610B11AFF00F7702F /* Goya Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Goya Icon.icns"; sourceTree = "<group>"; };
+		36EC1CD710B11AFF00F7702F /* graybutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graybutton.png; sourceTree = "<group>"; };
+		36EC1CD810B11AFF00F7702F /* grayfade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayfade.png; sourceTree = "<group>"; };
+		36EC1CD910B11AFF00F7702F /* graytab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graytab.png; sourceTree = "<group>"; };
+		36EC1CDA10B11AFF00F7702F /* hud_titlebar-close.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "hud_titlebar-close.tiff"; sourceTree = "<group>"; };
+		36EC1CDB10B11AFF00F7702F /* hud_titlebar-mini.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "hud_titlebar-mini.tiff"; sourceTree = "<group>"; };
+		36EC1CDC10B11AFF00F7702F /* hud_titlebar-resize.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "hud_titlebar-resize.tiff"; sourceTree = "<group>"; };
+		36EC1CDD10B11AFF00F7702F /* hud_titlebar-zoom.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "hud_titlebar-zoom.tiff"; sourceTree = "<group>"; };
+		36EC1CDE10B11AFF00F7702F /* kodakfavicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kodakfavicon.png; sourceTree = "<group>"; };
+		36EC1CDF10B11AFF00F7702F /* kodaklogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kodaklogo.png; sourceTree = "<group>"; };
+		36EC1CE110B11AFF00F7702F /* statusbar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusbar1.png; sourceTree = "<group>"; };
+		36EC1CE210B11AFF00F7702F /* statusbar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusbar2.png; sourceTree = "<group>"; };
+		36EC1CE310B11AFF00F7702F /* statusbarempty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusbarempty.png; sourceTree = "<group>"; };
+		36EC1CE410B11AFF00F7702F /* radiobutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiobutton.png; sourceTree = "<group>"; };
+		36EC1CE510B11AFF00F7702F /* radiobuttonda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiobuttonda.png; sourceTree = "<group>"; };
+		36EC1CE610B11AFF00F7702F /* radiobuttonsl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiobuttonsl.png; sourceTree = "<group>"; };
+		36EC1CE710B11AFF00F7702F /* radiobuttonslda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiobuttonslda.png; sourceTree = "<group>"; };
+		36EC1CE810B11AFF00F7702F /* redtab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redtab.png; sourceTree = "<group>"; };
+		36EC1CE910B11AFF00F7702F /* UnselectedTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnselectedTab.png; sourceTree = "<group>"; };
+		36EC1D0510B11B5300F7702F /* KAButtonGrayDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAButtonGrayDrawer.h; sourceTree = "<group>"; };
+		36EC1D0610B11B5300F7702F /* KAButtonGrayDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAButtonGrayDrawer.m; sourceTree = "<group>"; };
+		36EC1D0C10B11D3600F7702F /* KAButtonPresentationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAButtonPresentationInfo.h; sourceTree = "<group>"; };
+		36EC1D0D10B11D3600F7702F /* KAButtonPresentationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAButtonPresentationInfo.m; sourceTree = "<group>"; };
+		36EC1D2C10B125D400F7702F /* KAButtonBlackFadeDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAButtonBlackFadeDrawer.h; sourceTree = "<group>"; };
+		36EC1D2D10B125D400F7702F /* KAButtonBlackFadeDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAButtonBlackFadeDrawer.m; sourceTree = "<group>"; };
+		36EC1D3310B12B1D00F7702F /* KAPopUpButtonBlackFadeDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAPopUpButtonBlackFadeDrawer.h; sourceTree = "<group>"; };
+		36EC1D3410B12B1D00F7702F /* KAPopUpButtonBlackFadeDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAPopUpButtonBlackFadeDrawer.m; sourceTree = "<group>"; };
+		36EC1E1210B1392000F7702F /* KAButtonCellIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAButtonCellIntegration.m; sourceTree = "<group>"; };
+		36EC1E1710B1394300F7702F /* KAButtonCell.classdescription */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KAButtonCell.classdescription; sourceTree = "<group>"; };
+		36EC1EB310B13F0E00F7702F /* KABlackbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KABlackbutton.png; sourceTree = "<group>"; };
+		36EC1EB410B13F0E00F7702F /* KAGraybutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KAGraybutton.png; sourceTree = "<group>"; };
+		36EC1EC710B1400A00F7702F /* KACheckBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KACheckBox.png; sourceTree = "<group>"; };
+		36EC215210B15E0A00F7702F /* KAPopUpButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KAPopUpButton.png; sourceTree = "<group>"; };
+		36EC218C10B1666D00F7702F /* KAProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAProgressIndicator.h; sourceTree = "<group>"; };
+		36EC218D10B1666D00F7702F /* KAProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAProgressIndicator.m; sourceTree = "<group>"; };
+		36EC219010B1668300F7702F /* KAProgressBarBlackFadeDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAProgressBarBlackFadeDrawer.h; sourceTree = "<group>"; };
+		36EC219110B1668300F7702F /* KAProgressBarBlackFadeDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAProgressBarBlackFadeDrawer.m; sourceTree = "<group>"; };
+		36EF927310C36B5C004A9788 /* NSUIHeartBeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUIHeartBeat.h; sourceTree = "<group>"; };
+		36EF928010C36B90004A9788 /* TestProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EF928210C36B90004A9788 /* TestProgress-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestProgress-Info.plist"; sourceTree = "<group>"; };
+		36EF928B10C36BC3004A9788 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36EF928C10C36BC3004A9788 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		36EF928D10C36BC3004A9788 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		36EF928E10C36BC3004A9788 /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		36EF92D910C36F58004A9788 /* KAStepView.classdescription */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KAStepView.classdescription; sourceTree = "<group>"; };
+		36EF944D10C3922F004A9788 /* KAStepViewInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAStepViewInspector.h; sourceTree = "<group>"; };
+		36EF944E10C3922F004A9788 /* KAStepViewInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAStepViewInspector.m; sourceTree = "<group>"; };
+		53DF68FD067E5B5A0090B5B0 /* AiOControlIBPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AiOControlIBPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DF68FE067E5B5A0090B5B0 /* AiOControlIBPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AiOControlIBPlugin-Info.plist"; sourceTree = "<group>"; };
+		543B552710BF6F5200CEDA16 /* KAImageTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAImageTextCell.h; sourceTree = "<group>"; };
+		543B552810BF6F5200CEDA16 /* KAImageTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAImageTextCell.m; sourceTree = "<group>"; };
+		5485A4BC10C0F52200C806BF /* DotBlue.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = DotBlue.tiff; sourceTree = "<group>"; };
+		5485A4BD10C0F52200C806BF /* DotGray.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = DotGray.tiff; sourceTree = "<group>"; };
+		5485A4BE10C0F52200C806BF /* DotGrayDisabled.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = DotGrayDisabled.tiff; sourceTree = "<group>"; };
+		5485A58C10C1057300C806BF /* StepFocus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StepFocus.png; sourceTree = "<group>"; };
+		54D33B2806778E3300C9C163 /* KACustomView.classdescription */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KACustomView.classdescription; sourceTree = "<group>"; };
+		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1AC9740486D14A00FE50C9 /* AiOControlIBPlugin.ibplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiOControlIBPlugin.ibplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		C044829E0C3328F4006E818F /* KACustomViewIntegration.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = KACustomViewIntegration.m; sourceTree = "<group>"; };
+		C05B20D80A48CB530099B9E5 /* KACustomViewInspector.xib */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = file.xib; name = KACustomViewInspector.xib; path = English.lproj/KACustomViewInspector.xib; sourceTree = "<group>"; };
+		C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = /Developer/Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = "<absolute>"; };
+		D1AEDE460A6C289C0010C343 /* AiOControlIBPluginLibrary.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = AiOControlIBPluginLibrary.nib; path = English.lproj/AiOControlIBPluginLibrary.nib; sourceTree = "<group>"; };
+		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36EF927E10C36B90004A9788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC7A9B310C6868300AF0BCC /* AiOControlIBPlugin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DF68FB067E5B5A0090B5B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F8B89007B43554008AE28D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1AC96E0486D14A00FE50C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
+				C0D069560A49DF9100C95564 /* InterfaceBuilderKit.framework in Frameworks */,
+				2BC7A9B210C6867D00AF0BCC /* AiOControlIBPlugin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0259C574FE90428111CA0C5A /* AiOControlIBPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				36EF928810C36BA8004A9788 /* TestProgress */,
+				32DBCF9E0370C38000C91783 /* Plugin */,
+				54D33B2C06778E4400C9C163 /* Framework */,
+				0259C582FE90428111CA0C5A /* Resources */,
+				1ED78706FE9D4A0611CA0C5A /* Products */,
+				2E58F364FFB232C311CA0CBA /* Frameworks */,
+				36EF928210C36B90004A9788 /* TestProgress-Info.plist */,
+				2BC7A91510C6834000AF0BCC /* Untitled-Info.plist */,
+			);
+			name = AiOControlIBPlugin;
+			sourceTree = "<group>";
+		};
+		0259C582FE90428111CA0C5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36EC1CB510B11AC500F7702F /* ControlImages */,
+				8D1AC9730486D14A00FE50C9 /* Info.plist */,
+				53DF68FE067E5B5A0090B5B0 /* AiOControlIBPlugin-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		131E8FE8067F80F40006E0CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36CC7D5410AD2F1A004CD1A0 /* Icons */,
+				D1AEDE460A6C289C0010C343 /* AiOControlIBPluginLibrary.nib */,
+				C05B20D80A48CB530099B9E5 /* KACustomViewInspector.xib */,
+				36CC7B6810AD1B79004CD1A0 /* KAStylesInspector.xib */,
+				362428DB10B271B7007FF848 /* HyperLinkButtonInspector.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13F8B6FD07B43410008AE28D /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
+				C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		13F8B70407B43425008AE28D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13F8B88807B434F6008AE28D /* AppKit.framework */,
+				13F8B88907B434F6008AE28D /* CoreData.framework */,
+				13F8B88A07B434F6008AE28D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1ED78706FE9D4A0611CA0C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53DF68FD067E5B5A0090B5B0 /* AiOControlIBPlugin.framework */,
+				8D1AC9740486D14A00FE50C9 /* AiOControlIBPlugin.ibplugin */,
+				36EF928010C36B90004A9788 /* TestProgress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E58F364FFB232C311CA0CBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13F8B6FD07B43410008AE28D /* Linked Frameworks */,
+				13F8B70407B43425008AE28D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32DBCF9E0370C38000C91783 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				54D33B2406778DD400C9C163 /* Class Descriptions */,
+				54D33B2506778DF000C9C163 /* Classes */,
+				32DBCF9F0370C38200C91783 /* Other Sources */,
+				131E8FE8067F80F40006E0CE /* Resources */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		32DBCF9F0370C38200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF980370C29C00C91783 /* AiOControlIBPlugin_Prefix.pch */,
+				C044829E0C3328F4006E818F /* KACustomViewIntegration.m */,
+				36EC1E1210B1392000F7702F /* KAButtonCellIntegration.m */,
+				365171A910B16CA300BB60FC /* KAProgressIndicatorIntegration.m */,
+				362428B110B2716E007FF848 /* HyperLinkButtonIntegration.m */,
+				36242B5B10B38455007FF848 /* KATableViewIntegration.m */,
+				36242D0410B3B0E9007FF848 /* KATextFieldIntegration.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		36242A5B10B28A0A007FF848 /* KATabView */ = {
+			isa = PBXGroup;
+			children = (
+				36242A5C10B28A49007FF848 /* KATabView.h */,
+				36242A5D10B28A49007FF848 /* KATabView.m */,
+				36242A5E10B28A49007FF848 /* KATabViewItem.h */,
+				36242A5F10B28A49007FF848 /* KATabViewItem.m */,
+			);
+			name = KATabView;
+			sourceTree = "<group>";
+		};
+		36242AB910B29AC7007FF848 /* KATableView */ = {
+			isa = PBXGroup;
+			children = (
+				36242ABA10B29AEE007FF848 /* KATableCornerView.h */,
+				36242ABB10B29AEE007FF848 /* KATableCornerView.m */,
+				36242C5A10B38F16007FF848 /* KATableHeaderView.h */,
+				36242C5B10B38F16007FF848 /* KATableHeaderView.m */,
+				36242ABC10B29AEE007FF848 /* KATableHeaderCell.h */,
+				36242ABD10B29AEE007FF848 /* KATableHeaderCell.m */,
+				36242ABE10B29AEE007FF848 /* KATableView.h */,
+				36242ABF10B29AEE007FF848 /* KATableView.m */,
+				36242AF810B2A06A007FF848 /* KATableViewPresentationInfo.h */,
+				36242AF910B2A06A007FF848 /* KATableViewPresentationInfo.m */,
+				36242AFF10B2A17C007FF848 /* KATableViewBlackFadeDrawer.h */,
+				36242B0010B2A17C007FF848 /* KATableViewBlackFadeDrawer.m */,
+			);
+			name = KATableView;
+			sourceTree = "<group>";
+		};
+		36242CE710B39485007FF848 /* KAText */ = {
+			isa = PBXGroup;
+			children = (
+				543B552710BF6F5200CEDA16 /* KAImageTextCell.h */,
+				543B552810BF6F5200CEDA16 /* KAImageTextCell.m */,
+				36242CE810B394BC007FF848 /* KATextFieldCell.h */,
+				36242CE910B394BC007FF848 /* KATextFieldCell.m */,
+				36242CED10B3A845007FF848 /* KATextFieldBlackFadeDrawer.h */,
+				36242CEE10B3A845007FF848 /* KATextFieldBlackFadeDrawer.m */,
+				36242CF210B3A900007FF848 /* KATextFieldPresentationInfo.h */,
+				36242CF310B3A900007FF848 /* KATextFieldPresentationInfo.m */,
+			);
+			name = KAText;
+			sourceTree = "<group>";
+		};
+		36242D7210B3B3F6007FF848 /* KASlider */ = {
+			isa = PBXGroup;
+			children = (
+				36242D7810B3B44B007FF848 /* KASliderCell.h */,
+				36242D7910B3B44B007FF848 /* KASliderCell.m */,
+			);
+			name = KASlider;
+			sourceTree = "<group>";
+		};
+		36242D7310B3B416007FF848 /* KAStepper */ = {
+			isa = PBXGroup;
+			children = (
+				36242D7410B3B434007FF848 /* KAStepperCell.h */,
+				36242D7510B3B434007FF848 /* KAStepperCell.m */,
+			);
+			name = KAStepper;
+			sourceTree = "<group>";
+		};
+		365A037810AA514900E46EBB /* KACustomView */ = {
+			isa = PBXGroup;
+			children = (
+				365A04D110AA804700E46EBB /* KACustomView.h */,
+				365A04D210AA804700E46EBB /* KACustomView.m */,
+				36CC7C4D10AD22E6004CD1A0 /* KACustomViewBlackFadeDrawer.h */,
+				36CC7C4E10AD22E6004CD1A0 /* KACustomViewBlackFadeDrawer.m */,
+				36CC7CAD10AD2669004CD1A0 /* KACustomViewCustomDrawer.h */,
+				36CC7CAE10AD2669004CD1A0 /* KACustomViewCustomDrawer.m */,
+			);
+			name = KACustomView;
+			sourceTree = "<group>";
+		};
+		365A04DD10AA80A000E46EBB /* KAGradient */ = {
+			isa = PBXGroup;
+			children = (
+				365A04AE10AA7FC700E46EBB /* _KAGradient.h */,
+				365A04AF10AA7FC700E46EBB /* _KAGradient.m */,
+				365A04B010AA7FC700E46EBB /* _NSGradient.h */,
+				365A04B110AA7FC700E46EBB /* _NSGradient.m */,
+				365A04B210AA7FC700E46EBB /* KAGradient.h */,
+				365A04B310AA7FC700E46EBB /* KAGradient.m */,
+				365A04B410AA7FC700E46EBB /* KAGradientProtocol.h */,
+			);
+			name = KAGradient;
+			sourceTree = "<group>";
+		};
+		36CC729910ABDBFB004CD1A0 /* KAWindow */ = {
+			isa = PBXGroup;
+			children = (
+				2B96B83510BF8EDB00A87789 /* KAWindowStyle.h */,
+				36CC72AB10ABDC30004CD1A0 /* KAWindow.h */,
+				36CC72AC10ABDC30004CD1A0 /* KAWindow.m */,
+				36CC751310AC006A004CD1A0 /* KAPanel.h */,
+				36CC751410AC006A004CD1A0 /* KAPanel.m */,
+				36CC757610AC1C0F004CD1A0 /* KAThemeFrame.h */,
+				36CC757710AC1C0F004CD1A0 /* KAThemeFrame.m */,
+				36CC7D1310AD2B0A004CD1A0 /* KAWindowBlackFadeDrawer.h */,
+				36CC7D1410AD2B0A004CD1A0 /* KAWindowBlackFadeDrawer.m */,
+			);
+			name = KAWindow;
+			sourceTree = "<group>";
+		};
+		36CC72B310ABDC6A004CD1A0 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				365A04E010AA821800E46EBB /* DrawerFactory.h */,
+				365A04E110AA821800E46EBB /* DrawerFactory.m */,
+				365A04E210AA821800E46EBB /* IControlDrawer.h */,
+				365A04E310AA821800E46EBB /* IControlPresentationInfo.h */,
+				365A04E410AA821800E46EBB /* IDrawFactory.h */,
+				365A04E510AA821800E46EBB /* IPresentationManager.h */,
+				365A04E610AA821800E46EBB /* IPresentationSeparated.h */,
+				365A04E710AA821800E46EBB /* PresentationArgs.h */,
+				365A04E810AA821800E46EBB /* PresentationArgs.m */,
+				365A04E910AA821800E46EBB /* PresentationManager.h */,
+				365A04EA10AA821800E46EBB /* PresentationManager.m */,
+			);
+			name = Presentation;
+			sourceTree = "<group>";
+		};
+		36CC72B410ABDC8D004CD1A0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				36CC72AF10ABDC51004CD1A0 /* NSBezierPath+RoundedRect.h */,
+				36CC72B010ABDC51004CD1A0 /* NSBezierPath+RoundedRect.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		36CC750410ABFFD0004CD1A0 /* private_headers */ = {
+			isa = PBXGroup;
+			children = (
+				36DC5C5310C639AC004F1960 /* NSTabView.h */,
+				36EF927310C36B5C004A9788 /* NSUIHeartBeat.h */,
+				36CC75DB10AC2129004CD1A0 /* NSFrameView.h */,
+				36CC75DC10AC2129004CD1A0 /* NSTitledFrame.h */,
+				36CC750510ABFFF3004CD1A0 /* IBWindowView.h */,
+				36CC750910ABFFF3004CD1A0 /* NSThemeFrame.h */,
+			);
+			path = private_headers;
+			sourceTree = "<group>";
+		};
+		36CC7D5410AD2F1A004CD1A0 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				36242D5D10B3B26F007FF848 /* KATableView.png */,
+				365173A910B1853700BB60FC /* KAProgressBar.png */,
+				36EC215210B15E0A00F7702F /* KAPopUpButton.png */,
+				36EC1EC710B1400A00F7702F /* KACheckBox.png */,
+				36EC1EB310B13F0E00F7702F /* KABlackbutton.png */,
+				36EC1EB410B13F0E00F7702F /* KAGraybutton.png */,
+				36EC1B7610B0F55400F7702F /* KAOutlineview.png */,
+				36EC1B7710B0F55400F7702F /* KAScrollview.png */,
+				36CC7D5510AD2F46004CD1A0 /* KAPanel.png */,
+				36CC7D5610AD2F46004CD1A0 /* KAWindow.tif */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		36D395D010AD50FD006AA8EF /* KAScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				36D395D110AD5129006AA8EF /* KAScroller.h */,
+				36D395D210AD5129006AA8EF /* KAScroller.m */,
+				36D395D310AD5129006AA8EF /* KAScrollView.h */,
+				36D395D410AD5129006AA8EF /* KAScrollView.m */,
+				36D395D910AD514D006AA8EF /* KAScrollerBlackFadeDrawer.h */,
+				36D395DA10AD514D006AA8EF /* KAScrollerBlackFadeDrawer.m */,
+			);
+			name = KAScrollView;
+			sourceTree = "<group>";
+		};
+		36EC1BA310B10FCA00F7702F /* KAButton */ = {
+			isa = PBXGroup;
+			children = (
+				362428AD10B27007007FF848 /* HyperLinkButton.h */,
+				362428AE10B27007007FF848 /* HyperLinkButton.m */,
+				36EC1BE010B110F200F7702F /* KAPopUpButtonCell.h */,
+				36EC1BE110B110F200F7702F /* KAPopUpButtonCell.m */,
+				36EC1D3310B12B1D00F7702F /* KAPopUpButtonBlackFadeDrawer.h */,
+				36EC1D3410B12B1D00F7702F /* KAPopUpButtonBlackFadeDrawer.m */,
+				36EC1BDA10B110F200F7702F /* KAButtonCell.h */,
+				36EC1BDB10B110F200F7702F /* KAButtonCell.m */,
+				36EC1D0510B11B5300F7702F /* KAButtonGrayDrawer.h */,
+				36EC1D0610B11B5300F7702F /* KAButtonGrayDrawer.m */,
+				36EC1D2C10B125D400F7702F /* KAButtonBlackFadeDrawer.h */,
+				36EC1D2D10B125D400F7702F /* KAButtonBlackFadeDrawer.m */,
+				36EC1D0C10B11D3600F7702F /* KAButtonPresentationInfo.h */,
+				36EC1D0D10B11D3600F7702F /* KAButtonPresentationInfo.m */,
+			);
+			name = KAButton;
+			sourceTree = "<group>";
+		};
+		36EC1CB510B11AC500F7702F /* ControlImages */ = {
+			isa = PBXGroup;
+			children = (
+				5485A58C10C1057300C806BF /* StepFocus.png */,
+				5485A4BC10C0F52200C806BF /* DotBlue.tiff */,
+				5485A4BD10C0F52200C806BF /* DotGray.tiff */,
+				5485A4BE10C0F52200C806BF /* DotGrayDisabled.tiff */,
+				36EC1CCE10B11AFF00F7702F /* About (background).png */,
+				36EC1CCF10B11AFF00F7702F /* blackbutton.png */,
+				36EC1CD010B11AFF00F7702F /* checkbox.png */,
+				36EC1CD110B11AFF00F7702F /* checkboxda.png */,
+				36EC1CD210B11AFF00F7702F /* checkboxsl.png */,
+				36EC1CD310B11AFF00F7702F /* checkboxslda.png */,
+				36EC1CD410B11AFF00F7702F /* counter-disable.png */,
+				36EC1CD510B11AFF00F7702F /* counter.png */,
+				36EC1CD610B11AFF00F7702F /* Goya Icon.icns */,
+				36EC1CD710B11AFF00F7702F /* graybutton.png */,
+				36EC1CD810B11AFF00F7702F /* grayfade.png */,
+				36EC1CD910B11AFF00F7702F /* graytab.png */,
+				36EC1CDA10B11AFF00F7702F /* hud_titlebar-close.tiff */,
+				36EC1CDB10B11AFF00F7702F /* hud_titlebar-mini.tiff */,
+				36EC1CDC10B11AFF00F7702F /* hud_titlebar-resize.tiff */,
+				36EC1CDD10B11AFF00F7702F /* hud_titlebar-zoom.tiff */,
+				36EC1CDE10B11AFF00F7702F /* kodakfavicon.png */,
+				36EC1CDF10B11AFF00F7702F /* kodaklogo.png */,
+				36EC1CE010B11AFF00F7702F /* progress_bar */,
+				36EC1CE410B11AFF00F7702F /* radiobutton.png */,
+				36EC1CE510B11AFF00F7702F /* radiobuttonda.png */,
+				36EC1CE610B11AFF00F7702F /* radiobuttonsl.png */,
+				36EC1CE710B11AFF00F7702F /* radiobuttonslda.png */,
+				36EC1CE810B11AFF00F7702F /* redtab.png */,
+				36EC1CE910B11AFF00F7702F /* UnselectedTab.png */,
+			);
+			path = ControlImages;
+			sourceTree = "<group>";
+		};
+		36EC1CE010B11AFF00F7702F /* progress_bar */ = {
+			isa = PBXGroup;
+			children = (
+				36EC1CE110B11AFF00F7702F /* statusbar1.png */,
+				36EC1CE210B11AFF00F7702F /* statusbar2.png */,
+				36EC1CE310B11AFF00F7702F /* statusbarempty.png */,
+			);
+			path = progress_bar;
+			sourceTree = "<group>";
+		};
+		36EC218B10B1664B00F7702F /* KAProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				36EC218C10B1666D00F7702F /* KAProgressIndicator.h */,
+				36EC218D10B1666D00F7702F /* KAProgressIndicator.m */,
+				36EC219010B1668300F7702F /* KAProgressBarBlackFadeDrawer.h */,
+				36EC219110B1668300F7702F /* KAProgressBarBlackFadeDrawer.m */,
+			);
+			name = KAProgressBar;
+			sourceTree = "<group>";
+		};
+		36EF928810C36BA8004A9788 /* TestProgress */ = {
+			isa = PBXGroup;
+			children = (
+				36EF928B10C36BC3004A9788 /* main.m */,
+				36EF928C10C36BC3004A9788 /* MainWindow.xib */,
+				36EF928D10C36BC3004A9788 /* TestController.h */,
+				36EF928E10C36BC3004A9788 /* TestController.m */,
+			);
+			path = TestProgress;
+			sourceTree = "<group>";
+		};
+		54D33B2406778DD400C9C163 /* Class Descriptions */ = {
+			isa = PBXGroup;
+			children = (
+				54D33B2806778E3300C9C163 /* KACustomView.classdescription */,
+				36CC73A710ABED5E004CD1A0 /* KAWindow.classdescription */,
+				36D3967910AD5D9B006AA8EF /* KAScrollView.classdescription */,
+				36EC1E1710B1394300F7702F /* KAButtonCell.classdescription */,
+				36EF92D910C36F58004A9788 /* KAStepView.classdescription */,
+			);
+			name = "Class Descriptions";
+			sourceTree = "<group>";
+		};
+		54D33B2506778DF000C9C163 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0259C57AFE90428111CA0C5A /* AiOControlIBPlugin.h */,
+				0259C576FE90428111CA0C5A /* AiOControlIBPlugin.m */,
+				0259C57BFE90428111CA0C5A /* KACustomViewInspector.h */,
+				0259C577FE90428111CA0C5A /* KACustomViewInspector.m */,
+				36CC760910AC2B06004CD1A0 /* PluginControlller.h */,
+				36CC760A10AC2B06004CD1A0 /* PluginControlller.m */,
+				36CC7B6C10AD1BD8004CD1A0 /* KAStylesInspector.h */,
+				36CC7B6D10AD1BD8004CD1A0 /* KAStylesInspector.m */,
+				362428D810B271A8007FF848 /* HyperLinkButtonInspector.h */,
+				362428D910B271A8007FF848 /* HyperLinkButtonInspector.m */,
+				36EF944D10C3922F004A9788 /* KAStepViewInspector.h */,
+				36EF944E10C3922F004A9788 /* KAStepViewInspector.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		54D33B2C06778E4400C9C163 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C0894DA40C32F4C100401507 /* Classes */,
+				36D74E7C10B3F27300FE1A30 /* AiOControls.h */,
+				365A051C10AA836300E46EBB /* AiOControlFramework_Prefix.pch */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		C0894DA40C32F4C100401507 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				36CC750410ABFFD0004CD1A0 /* private_headers */,
+				36242D7310B3B416007FF848 /* KAStepper */,
+				36242D7210B3B3F6007FF848 /* KASlider */,
+				36242CE710B39485007FF848 /* KAText */,
+				36242AB910B29AC7007FF848 /* KATableView */,
+				36242A5B10B28A0A007FF848 /* KATabView */,
+				36EC218B10B1664B00F7702F /* KAProgressBar */,
+				36EC1BA310B10FCA00F7702F /* KAButton */,
+				36D395D010AD50FD006AA8EF /* KAScrollView */,
+				36CC72B410ABDC8D004CD1A0 /* Category */,
+				36CC72B310ABDC6A004CD1A0 /* Presentation */,
+				36CC729910ABDBFB004CD1A0 /* KAWindow */,
+				365A04DD10AA80A000E46EBB /* KAGradient */,
+				365A037810AA514900E46EBB /* KACustomView */,
+			);
+			name = Classes;
+			path = FrameworkSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53DF68F8067E5B5A0090B5B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365A04BC10AA7FC700E46EBB /* KAGradient.h in Headers */,
+				365A04BE10AA7FC700E46EBB /* KAGradientProtocol.h in Headers */,
+				DB89419510B6498F0004CF4B /* KAPanel.h in Headers */,
+				365A04D410AA804700E46EBB /* KACustomView.h in Headers */,
+				365A04F110AA821800E46EBB /* DrawerFactory.h in Headers */,
+				365A04F310AA821800E46EBB /* IControlDrawer.h in Headers */,
+				365A04F410AA821800E46EBB /* IControlPresentationInfo.h in Headers */,
+				365A04F510AA821800E46EBB /* IDrawFactory.h in Headers */,
+				365A04F610AA821800E46EBB /* IPresentationManager.h in Headers */,
+				365A04F710AA821800E46EBB /* IPresentationSeparated.h in Headers */,
+				365A04F810AA821800E46EBB /* PresentationArgs.h in Headers */,
+				365A04FA10AA821800E46EBB /* PresentationManager.h in Headers */,
+				365A051D10AA836300E46EBB /* AiOControlFramework_Prefix.pch in Headers */,
+				36CC72AD10ABDC30004CD1A0 /* KAWindow.h in Headers */,
+				36CC72B110ABDC51004CD1A0 /* NSBezierPath+RoundedRect.h in Headers */,
+				36CC75D210AC20A7004CD1A0 /* KAThemeFrame.h in Headers */,
+				36CC7C4F10AD22E6004CD1A0 /* KACustomViewBlackFadeDrawer.h in Headers */,
+				36CC7CAF10AD2669004CD1A0 /* KACustomViewCustomDrawer.h in Headers */,
+				36CC7D1510AD2B0A004CD1A0 /* KAWindowBlackFadeDrawer.h in Headers */,
+				36D395D510AD5129006AA8EF /* KAScroller.h in Headers */,
+				36D395D710AD5129006AA8EF /* KAScrollView.h in Headers */,
+				36D395DB10AD514D006AA8EF /* KAScrollerBlackFadeDrawer.h in Headers */,
+				36EC1BE210B110F200F7702F /* KAButtonCell.h in Headers */,
+				36EC1BE810B110F200F7702F /* KAPopUpButtonCell.h in Headers */,
+				36EC1D0710B11B5300F7702F /* KAButtonGrayDrawer.h in Headers */,
+				36EC1D0E10B11D3600F7702F /* KAButtonPresentationInfo.h in Headers */,
+				36EC1D2E10B125D400F7702F /* KAButtonBlackFadeDrawer.h in Headers */,
+				36EC1D3510B12B1D00F7702F /* KAPopUpButtonBlackFadeDrawer.h in Headers */,
+				36EC218E10B1666D00F7702F /* KAProgressIndicator.h in Headers */,
+				36EC219210B1668300F7702F /* KAProgressBarBlackFadeDrawer.h in Headers */,
+				362428AF10B27007007FF848 /* HyperLinkButton.h in Headers */,
+				36242A6010B28A49007FF848 /* KATabView.h in Headers */,
+				36242A6210B28A49007FF848 /* KATabViewItem.h in Headers */,
+				36242AC010B29AEE007FF848 /* KATableCornerView.h in Headers */,
+				36242AC210B29AEE007FF848 /* KATableHeaderCell.h in Headers */,
+				36242AC410B29AEE007FF848 /* KATableView.h in Headers */,
+				36242AFA10B2A06A007FF848 /* KATableViewPresentationInfo.h in Headers */,
+				36242B0110B2A17C007FF848 /* KATableViewBlackFadeDrawer.h in Headers */,
+				36242C5C10B38F16007FF848 /* KATableHeaderView.h in Headers */,
+				36242CEA10B394BC007FF848 /* KATextFieldCell.h in Headers */,
+				36242CEF10B3A845007FF848 /* KATextFieldBlackFadeDrawer.h in Headers */,
+				36242CF410B3A900007FF848 /* KATextFieldPresentationInfo.h in Headers */,
+				36242D7610B3B434007FF848 /* KAStepperCell.h in Headers */,
+				36242D7A10B3B44B007FF848 /* KASliderCell.h in Headers */,
+				36D74E7D10B3F27300FE1A30 /* AiOControls.h in Headers */,
+				2B96B83710BF8EDB00A87789 /* KAWindowStyle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		36EF927F10C36B90004A9788 /* TestProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EF928510C36B92004A9788 /* Build configuration list for PBXNativeTarget "TestProgress" */;
+			buildPhases = (
+				36EF927C10C36B90004A9788 /* Resources */,
+				36EF927D10C36B90004A9788 /* Sources */,
+				36EF927E10C36B90004A9788 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestProgress;
+			productName = TestProgress;
+			productReference = 36EF928010C36B90004A9788 /* TestProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53DF68FC067E5B5A0090B5B0 /* AiOControlIBPluginFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C056397F08A954F8003078D8 /* Build configuration list for PBXNativeTarget "AiOControlIBPluginFramework" */;
+			buildPhases = (
+				53DF68F8067E5B5A0090B5B0 /* Headers */,
+				53DF68F9067E5B5A0090B5B0 /* Resources */,
+				53DF68FA067E5B5A0090B5B0 /* Sources */,
+				53DF68FB067E5B5A0090B5B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AiOControlIBPluginFramework;
+			productName = AiOControlIBPluginFramework;
+			productReference = 53DF68FD067E5B5A0090B5B0 /* AiOControlIBPlugin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D1AC9600486D14A00FE50C9 /* AiOControlIBPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "AiOControlIBPlugin" */;
+			buildPhases = (
+				8D1AC9660486D14A00FE50C9 /* Resources */,
+				8D1AC96A0486D14A00FE50C9 /* Sources */,
+				8D1AC96E0486D14A00FE50C9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				546DEAF0067F62F70098DCC4 /* PBXTargetDependency */,
+			);
+			name = AiOControlIBPlugin;
+			productInstallPath = "$(HOME)/Developer/Palettes";
+			productName = AiOControlIBPlugin;
+			productReference = 8D1AC9740486D14A00FE50C9 /* AiOControlIBPlugin.ibplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0259C573FE90428111CA0C5A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C056398B08A954F8003078D8 /* Build configuration list for PBXProject "AiOControlIBPlugin" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 0259C574FE90428111CA0C5A /* AiOControlIBPlugin */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53DF6901067E5B8E0090B5B0 /* All */,
+				8D1AC9600486D14A00FE50C9 /* AiOControlIBPlugin */,
+				53DF68FC067E5B5A0090B5B0 /* AiOControlIBPluginFramework */,
+				36EF927F10C36B90004A9788 /* TestProgress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36EF927C10C36B90004A9788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EF929010C36BC3004A9788 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DF68F9067E5B5A0090B5B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EC1CEA10B11AFF00F7702F /* About (background).png in Resources */,
+				36EC1CEB10B11AFF00F7702F /* blackbutton.png in Resources */,
+				36EC1CEC10B11AFF00F7702F /* checkbox.png in Resources */,
+				36EC1CED10B11AFF00F7702F /* checkboxda.png in Resources */,
+				36EC1CEE10B11AFF00F7702F /* checkboxsl.png in Resources */,
+				36EC1CEF10B11AFF00F7702F /* checkboxslda.png in Resources */,
+				36EC1CF010B11AFF00F7702F /* counter-disable.png in Resources */,
+				36EC1CF110B11AFF00F7702F /* counter.png in Resources */,
+				36EC1CF210B11AFF00F7702F /* Goya Icon.icns in Resources */,
+				36EC1CF310B11AFF00F7702F /* graybutton.png in Resources */,
+				36EC1CF410B11AFF00F7702F /* grayfade.png in Resources */,
+				36EC1CF510B11AFF00F7702F /* graytab.png in Resources */,
+				36EC1CF610B11AFF00F7702F /* hud_titlebar-close.tiff in Resources */,
+				36EC1CF710B11AFF00F7702F /* hud_titlebar-mini.tiff in Resources */,
+				36EC1CF810B11AFF00F7702F /* hud_titlebar-resize.tiff in Resources */,
+				36EC1CF910B11AFF00F7702F /* hud_titlebar-zoom.tiff in Resources */,
+				36EC1CFA10B11AFF00F7702F /* kodakfavicon.png in Resources */,
+				36EC1CFB10B11AFF00F7702F /* kodaklogo.png in Resources */,
+				36EC1CFC10B11AFF00F7702F /* statusbar1.png in Resources */,
+				36EC1CFD10B11AFF00F7702F /* statusbar2.png in Resources */,
+				36EC1CFE10B11AFF00F7702F /* statusbarempty.png in Resources */,
+				36EC1CFF10B11AFF00F7702F /* radiobutton.png in Resources */,
+				36EC1D0010B11AFF00F7702F /* radiobuttonda.png in Resources */,
+				36EC1D0110B11AFF00F7702F /* radiobuttonsl.png in Resources */,
+				36EC1D0210B11AFF00F7702F /* radiobuttonslda.png in Resources */,
+				36EC1D0310B11AFF00F7702F /* redtab.png in Resources */,
+				36EC1D0410B11AFF00F7702F /* UnselectedTab.png in Resources */,
+				5485A4C210C0F52200C806BF /* DotBlue.tiff in Resources */,
+				5485A4C310C0F52200C806BF /* DotGray.tiff in Resources */,
+				5485A4C410C0F52200C806BF /* DotGrayDisabled.tiff in Resources */,
+				5485A58E10C1057300C806BF /* StepFocus.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1AC9660486D14A00FE50C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D33B2906778E3300C9C163 /* KACustomView.classdescription in Resources */,
+				C0A47C500A523B730004BDC3 /* KACustomViewInspector.xib in Resources */,
+				D1AEDE470A6C289C0010C343 /* AiOControlIBPluginLibrary.nib in Resources */,
+				36CC73AA10ABED89004CD1A0 /* KAWindow.classdescription in Resources */,
+				36CC7B6A10AD1B7D004CD1A0 /* KAStylesInspector.xib in Resources */,
+				36CC7D5710AD2F46004CD1A0 /* KAPanel.png in Resources */,
+				36CC7D5810AD2F46004CD1A0 /* KAWindow.tif in Resources */,
+				36D3967A10AD5DA0006AA8EF /* KAScrollView.classdescription in Resources */,
+				36EC1B7810B0F55400F7702F /* KAOutlineview.png in Resources */,
+				36EC1B7910B0F55400F7702F /* KAScrollview.png in Resources */,
+				36EC1EB510B13F0E00F7702F /* KABlackbutton.png in Resources */,
+				36EC1EB610B13F0E00F7702F /* KAGraybutton.png in Resources */,
+				36EC1EC810B1400A00F7702F /* KACheckBox.png in Resources */,
+				36EC215310B15E0A00F7702F /* KAPopUpButton.png in Resources */,
+				365173AA10B1853700BB60FC /* KAProgressBar.png in Resources */,
+				362428DC10B271B7007FF848 /* HyperLinkButtonInspector.xib in Resources */,
+				36242D5E10B3B26F007FF848 /* KATableView.png in Resources */,
+				5485A4BF10C0F52200C806BF /* DotBlue.tiff in Resources */,
+				5485A4C010C0F52200C806BF /* DotGray.tiff in Resources */,
+				5485A4C110C0F52200C806BF /* DotGrayDisabled.tiff in Resources */,
+				5485A58D10C1057300C806BF /* StepFocus.png in Resources */,
+				36EF936610C3730F004A9788 /* KAStepView.classdescription in Resources */,
+				36EF936710C37315004A9788 /* KAButtonCell.classdescription in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36EF927D10C36B90004A9788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EF928F10C36BC3004A9788 /* main.m in Sources */,
+				36EF929110C36BC3004A9788 /* TestController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DF68FA067E5B5A0090B5B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365A04B910AA7FC700E46EBB /* _KAGradient.m in Sources */,
+				365A04BB10AA7FC700E46EBB /* _NSGradient.m in Sources */,
+				365A04BD10AA7FC700E46EBB /* KAGradient.m in Sources */,
+				365A04D510AA804700E46EBB /* KACustomView.m in Sources */,
+				365A04F210AA821800E46EBB /* DrawerFactory.m in Sources */,
+				365A04F910AA821800E46EBB /* PresentationArgs.m in Sources */,
+				365A04FB10AA821800E46EBB /* PresentationManager.m in Sources */,
+				36CC72AE10ABDC30004CD1A0 /* KAWindow.m in Sources */,
+				36CC72B210ABDC51004CD1A0 /* NSBezierPath+RoundedRect.m in Sources */,
+				36CC75D310AC20A7004CD1A0 /* KAThemeFrame.m in Sources */,
+				36CC75D710AC20B7004CD1A0 /* KAPanel.m in Sources */,
+				36CC7C5010AD22E6004CD1A0 /* KACustomViewBlackFadeDrawer.m in Sources */,
+				36CC7CB010AD2669004CD1A0 /* KACustomViewCustomDrawer.m in Sources */,
+				36CC7D1610AD2B0A004CD1A0 /* KAWindowBlackFadeDrawer.m in Sources */,
+				36D395D610AD5129006AA8EF /* KAScroller.m in Sources */,
+				36D395D810AD5129006AA8EF /* KAScrollView.m in Sources */,
+				36D395DC10AD514D006AA8EF /* KAScrollerBlackFadeDrawer.m in Sources */,
+				36EC1BE310B110F200F7702F /* KAButtonCell.m in Sources */,
+				36EC1BE910B110F200F7702F /* KAPopUpButtonCell.m in Sources */,
+				36EC1D0810B11B5300F7702F /* KAButtonGrayDrawer.m in Sources */,
+				36EC1D0F10B11D3600F7702F /* KAButtonPresentationInfo.m in Sources */,
+				36EC1D2F10B125D400F7702F /* KAButtonBlackFadeDrawer.m in Sources */,
+				36EC1D3610B12B1D00F7702F /* KAPopUpButtonBlackFadeDrawer.m in Sources */,
+				36EC218F10B1666D00F7702F /* KAProgressIndicator.m in Sources */,
+				36EC219310B1668300F7702F /* KAProgressBarBlackFadeDrawer.m in Sources */,
+				362428B010B27007007FF848 /* HyperLinkButton.m in Sources */,
+				36242A6110B28A49007FF848 /* KATabView.m in Sources */,
+				36242A6310B28A49007FF848 /* KATabViewItem.m in Sources */,
+				36242AC110B29AEE007FF848 /* KATableCornerView.m in Sources */,
+				36242AC310B29AEE007FF848 /* KATableHeaderCell.m in Sources */,
+				36242AC510B29AEE007FF848 /* KATableView.m in Sources */,
+				36242AFB10B2A06A007FF848 /* KATableViewPresentationInfo.m in Sources */,
+				36242B0210B2A17C007FF848 /* KATableViewBlackFadeDrawer.m in Sources */,
+				36242C5D10B38F16007FF848 /* KATableHeaderView.m in Sources */,
+				36242CEB10B394BC007FF848 /* KATextFieldCell.m in Sources */,
+				36242CF010B3A845007FF848 /* KATextFieldBlackFadeDrawer.m in Sources */,
+				36242CF510B3A900007FF848 /* KATextFieldPresentationInfo.m in Sources */,
+				36242D7710B3B434007FF848 /* KAStepperCell.m in Sources */,
+				36242D7B10B3B44B007FF848 /* KASliderCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1AC96A0486D14A00FE50C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08787290A49DE9A00E9B151 /* AiOControlIBPlugin.m in Sources */,
+				8D1AC96C0486D14A00FE50C9 /* KACustomViewInspector.m in Sources */,
+				C044829F0C3328F4006E818F /* KACustomViewIntegration.m in Sources */,
+				36CC760B10AC2B06004CD1A0 /* PluginControlller.m in Sources */,
+				36CC7B6E10AD1BD8004CD1A0 /* KAStylesInspector.m in Sources */,
+				36EC1E1310B1392000F7702F /* KAButtonCellIntegration.m in Sources */,
+				365171AA10B16CA300BB60FC /* KAProgressIndicatorIntegration.m in Sources */,
+				362428B210B2716E007FF848 /* HyperLinkButtonIntegration.m in Sources */,
+				362428DA10B271A8007FF848 /* HyperLinkButtonInspector.m in Sources */,
+				36242B5C10B38455007FF848 /* KATableViewIntegration.m in Sources */,
+				36242D0510B3B0E9007FF848 /* KATextFieldIntegration.m in Sources */,
+				36EF944F10C3922F004A9788 /* KAStepViewInspector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36EF929410C36BD8004A9788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36EF927F10C36B90004A9788 /* TestProgress */;
+			targetProxy = 36EF929310C36BD8004A9788 /* PBXContainerItemProxy */;
+		};
+		53DF6903067E5B930090B5B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1AC9600486D14A00FE50C9 /* AiOControlIBPlugin */;
+			targetProxy = 53DF6902067E5B930090B5B0 /* PBXContainerItemProxy */;
+		};
+		53DF6905067E5B930090B5B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53DF68FC067E5B5A0090B5B0 /* AiOControlIBPluginFramework */;
+			targetProxy = 53DF6904067E5B930090B5B0 /* PBXContainerItemProxy */;
+		};
+		546DEAF0067F62F70098DCC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53DF68FC067E5B5A0090B5B0 /* AiOControlIBPluginFramework */;
+			targetProxy = 546DEAEF067F62F70098DCC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36EF928310C36B92004A9788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(LOCAL_LIBRARY_DIR)/Printers/Kodak/AiO_Printers/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "TestProgress-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = TestProgress;
+			};
+			name = Debug;
+		};
+		36EF928410C36B92004A9788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(LOCAL_LIBRARY_DIR)/Printers/Kodak/AiO_Printers/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "TestProgress-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = TestProgress;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C056398008A954F8003078D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+					ppc,
+				);
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AiOControlFramework_Prefix.pch;
+				GCC_VERSION = 4.0;
+				INFOPLIST_FILE = "AiOControlIBPlugin-Info.plist";
+				INSTALL_PATH = /Library/Frameworks;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				"MACOSX_DEPLOYMENT_TARGET[arch=x86_64]" = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = AiOControlIBPlugin;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		C056398108A954F8003078D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+					ppc,
+				);
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AiOControlFramework_Prefix.pch;
+				GCC_VERSION = 4.0;
+				INFOPLIST_FILE = "AiOControlIBPlugin-Info.plist";
+				INSTALL_MODE_FLAG = "go-w,a+rX";
+				INSTALL_PATH = /Library/Frameworks;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				"MACOSX_DEPLOYMENT_TARGET[arch=x86_64]" = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = AiOControlIBPlugin;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		C056398408A954F8003078D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+				);
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					$inherited,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"\"$(LOCAL_LIBRARY_DIR)/Printers/Kodak/AiO_Printers/Frameworks\"",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_DIR)/Library/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AiOControlIBPlugin_Prefix.pch;
+				GCC_VERSION = 4.0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks/AiOControlIBPlugin.framework/Resources";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				"MACOSX_DEPLOYMENT_TARGET[arch=x86_64]" = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = AiOControlIBPlugin;
+				WRAPPER_EXTENSION = ibplugin;
+			};
+			name = Debug;
+		};
+		C056398508A954F8003078D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+				);
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					$inherited,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"\"$(LOCAL_LIBRARY_DIR)/Printers/Kodak/AiO_Printers/Frameworks\"",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_DIR)/Library/Frameworks\"";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AiOControlIBPlugin_Prefix.pch;
+				GCC_VERSION = 4.0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks/AiOControlIBPlugin.framework/Resources";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				"MACOSX_DEPLOYMENT_TARGET[arch=x86_64]" = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = AiOControlIBPlugin;
+				WRAPPER_EXTENSION = ibplugin;
+			};
+			name = Release;
+		};
+		C056398808A954F8003078D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = All;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		C056398908A954F8003078D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				PRODUCT_NAME = All;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		C056398C08A954F8003078D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+					ppc,
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				"MACOSX_DEPLOYMENT_TARGET[arch=x86_64]" = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C056398D08A954F8003078D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+					ppc,
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				"MACOSX_DEPLOYMENT_TARGET[arch=x86_64]" = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36EF928510C36B92004A9788 /* Build configuration list for PBXNativeTarget "TestProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EF928310C36B92004A9788 /* Debug */,
+				36EF928410C36B92004A9788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C056397F08A954F8003078D8 /* Build configuration list for PBXNativeTarget "AiOControlIBPluginFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C056398008A954F8003078D8 /* Debug */,
+				C056398108A954F8003078D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "AiOControlIBPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C056398408A954F8003078D8 /* Debug */,
+				C056398508A954F8003078D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C056398708A954F8003078D8 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C056398808A954F8003078D8 /* Debug */,
+				C056398908A954F8003078D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C056398B08A954F8003078D8 /* Build configuration list for PBXProject "AiOControlIBPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C056398C08A954F8003078D8 /* Debug */,
+				C056398D08A954F8003078D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0259C573FE90428111CA0C5A /* Project object */;
+}

@@ -1,0 +1,14 @@
+{
+	Actions = {
+		// Define action descriptions here, for example
+		// "myAction:" = id;
+	};
+	Outlets = {
+		// Define outlet descriptions here, for example
+		// mContentView = NSView;
+		// mDelegate = id;
+		// mDataSource = id;
+	};
+    ClassName = KAStepView; 
+    SuperClass = NSView; 
+}
