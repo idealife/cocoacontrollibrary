@@ -1,0 +1,3 @@
+The control library is flexible to extend and have the performance of the controls in AppKit.
+The control library contains following controls,
+KAWindow, KACustomView, KAButton, KATableView, KATabView, KAProgressIndicator...
